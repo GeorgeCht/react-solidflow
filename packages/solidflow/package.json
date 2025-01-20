@@ -11,11 +11,7 @@
     "import": "./dist/index.js",
     "require": "./dist/index.cjs"
   },
-  "files": [
-    "dist",
-    "LICENSE",
-    "README.md"
-  ],
+  "files": ["dist", "LICENSE", "README.md"],
   "keywords": [
     "react",
     "solidjs",
@@ -29,6 +25,9 @@
   ],
   "license": "MIT",
   "author": "GeorgeCht <info@georgecht.com>",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build": "bun run clean && bun run build:dist && bun run build:types",
     "build:dist": "rollup -c -g react:React",

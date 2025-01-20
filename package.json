@@ -41,6 +41,9 @@
   "engines": {
     "node": ">=18"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "packageManager": "bun@1.1.30",
   "workspaces": ["apps/*", "packages/*"],
   "size-limit": [
