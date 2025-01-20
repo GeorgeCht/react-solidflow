@@ -1,6 +1,20 @@
 {
   "name": "react-solidflow",
-  "private": true,
+  "version": "1.0.0",
+  "description": "A SolidJS inspired collection of flow utility components for React.",
+  "keywords": [
+    "react",
+    "solidjs",
+    "solid",
+    "utilities",
+    "for",
+    "arrays",
+    "flow",
+    "jsx",
+    "templating"
+  ],
+  "license": "MIT",
+  "author": "GeorgeCht <info@georgecht.com>",
   "scripts": {
     "build": "turbo build",
     "dev": "turbo dev",
