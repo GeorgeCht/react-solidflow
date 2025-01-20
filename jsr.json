@@ -1,0 +1,14 @@
+{
+  "name": "@georgecht/react-solid-utils",
+  "version": "1.2.0",
+  "exports": "./packages/solid-utils/src/index.ts",
+  "publish": {
+    "include": [
+      "packages/solid-utils/src/**/*.ts",
+      "packages/solid-utils/package.json",
+      "packages/solid-utils/CHANGELOG.md",
+      "packages/solid-utils/README.md",
+      "packages/solid-utils/LICENSE"
+    ]
+  }
+}
