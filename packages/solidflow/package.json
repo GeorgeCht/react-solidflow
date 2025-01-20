@@ -1,0 +1,49 @@
+{
+  "name": "react-solidflow",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "description": "A SolidJS inspired collection of flow utility components for React.",
+  "exports": {
+    "types": "./dist/index.d.ts",
+    "import": "./dist/index.js",
+    "require": "./dist/index.cjs"
+  },
+  "files": ["dist", "LICENSE", "README.md"],
+  "keywords": [
+    "react",
+    "solidjs",
+    "solid",
+    "utilities",
+    "for",
+    "arrays",
+    "flow",
+    "jsx",
+    "templating"
+  ],
+  "license": "MIT",
+  "author": "GeorgeCht <info@georgecht.com>",
+  "private": true,
+  "scripts": {
+    "build": "bun run clean && bun run build:dist && bun run build:types",
+    "build:dist": "rollup -c",
+    "build:types": "tsc -p tsconfig.json --emitDeclarationOnly",
+    "prepublishOnly": "bun run build",
+    "check": "bunx biome check --write \"**/*.{ts,tsx,md}\"",
+    "clean": "bunx rimraf dist"
+  },
+  "peerDependencies": {
+    "react": ">=18.0.0 <20.0.0"
+  },
+  "devDependencies": {
+    "@types/bun": "1.1.17",
+    "@types/react": ">=18.0.0 <20.0.0",
+    "@rollup/plugin-typescript": "^12.1.0",
+    "rollup": "^4.24.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

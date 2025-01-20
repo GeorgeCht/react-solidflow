@@ -1,0 +1,5 @@
+{
+  "extends": "@solidflow/tsconfig/lib.json",
+  "include": ["src", "."],
+  "exclude": ["node_modules"]
+}

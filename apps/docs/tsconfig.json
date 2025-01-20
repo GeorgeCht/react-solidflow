@@ -1,5 +1,5 @@
 {
-  "extends": "@repo/typescript-config/nextjs.json",
+  "extends": "@solidflow/tsconfig/nextjs.json",
   "compilerOptions": {
     "plugins": [
       {
