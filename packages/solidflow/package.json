@@ -28,7 +28,7 @@
   "private": true,
   "scripts": {
     "build": "bun run clean && bun run build:dist && bun run build:types",
-    "build:dist": "rollup -c",
+    "build:dist": "rollup -c -g react:React",
     "build:types": "tsc -p tsconfig.json --emitDeclarationOnly",
     "prepublishOnly": "bun run build",
     "check": "bunx biome check --write \"**/*.{ts,tsx,md}\"",
@@ -41,6 +41,7 @@
     "@types/bun": "1.1.17",
     "@types/react": ">=18.0.0 <20.0.0",
     "@rollup/plugin-typescript": "^12.1.0",
+    "rollup-plugin-esbuild-minify": "^1.1.2",
     "rollup": "^4.24.0"
   },
   "engines": {

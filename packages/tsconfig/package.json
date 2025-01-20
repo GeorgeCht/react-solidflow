@@ -4,5 +4,8 @@
   "private": true,
   "publishConfig": {
     "access": "public"
+  },
+  "scripts": {
+    "clean": "bunx rimraf dist"
   }
 }
