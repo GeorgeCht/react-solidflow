@@ -1,7 +1,7 @@
 {
-  "name": "react-solidflow",
+  "name": "react-solid-utils",
   "version": "1.0.0",
-  "description": "A SolidJS inspired collection of flow utility components for React.",
+  "description": "A SolidJS inspired collection of utility components for React.",
   "keywords": [
     "react",
     "solidjs",
