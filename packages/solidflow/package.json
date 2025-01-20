@@ -32,7 +32,7 @@
     "build:types": "tsc -p tsconfig.json --emitDeclarationOnly",
     "prepublishOnly": "bun run build",
     "check": "bunx biome check --write \"**/*.{ts,tsx,md}\"",
-    "clean": "bunx rimraf dist"
+    "clean": "bunx rimraf dist .turbo"
   },
   "peerDependencies": {
     "react": ">=18.0.0 <20.0.0"

@@ -9,7 +9,7 @@
     "start": "next start",
     "lint": "next lint --max-warnings 0",
     "check-types": "tsc --noEmit",
-    "clean": "bunx rimraf .next"
+    "clean": "bunx rimraf .next .turbo"
   },
   "dependencies": {
     "next": "^15.1.0",
