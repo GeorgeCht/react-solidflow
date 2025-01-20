@@ -27,7 +27,7 @@ jobs:
         run: bun run build
 
       - name: Release
-        run: bun publish --cwd packages/solidflow --access public
+        run: bun publish --cwd packages/solid-utils --access public
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_CONFIG_TOKEN: ${{ secrets.NPM_TOKEN }}
